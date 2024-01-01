@@ -1,0 +1,34 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.variable.tfvars*
+
+# Environment variable files
+# .env
+*.env.*
+*config.json
+*.devcontainer/
+
+# Python compiled files
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and reports
+**/backtest_results/**
+**/data/**/**
+**/logs/**
+reports/
+
+# Other temporary files
+__pycache__/
+*.log
+*.tmp
+*.swp
+
+# Private key
+*.pem
+*.cer
